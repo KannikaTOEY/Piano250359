@@ -34,50 +34,64 @@
                 android:layout_height="match_parent"
                 android:text="Do"
                 android:id="@+id/button"
-                android:textSize="40dp" />
+                android:textSize="40dp"
+                android:background="#9fd0d7" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="RA"
+                android:text="RE"
                 android:id="@+id/button2"
-                android:textSize="40dp" />
+                android:textSize="40dp"
+                android:background="#3d88c9" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="New Button"
-                android:id="@+id/button3" />
+                android:text="MI"
+                android:id="@+id/button3"
+                android:textSize="@dimen/size1"
+                android:background="#61bce3" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="New Button"
-                android:id="@+id/button4" />
+                android:text="FA"
+                android:id="@+id/button4"
+                android:textSize="@dimen/size1"
+                android:background="#6b98d8" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="New Button"
-                android:id="@+id/button5" />
+                android:text="SOL"
+                android:id="@+id/button5"
+                android:textSize="@dimen/size1"
+                android:background="#3c73d8" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="New Button"
-                android:id="@+id/button6" />
+                android:text="LA"
+                android:id="@+id/button6"
+                android:textSize="@dimen/size1"
+                android:background="#396fc1" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="New Button"
-                android:id="@+id/button7" />
+                android:text="SI"
+                android:id="@+id/button7"
+                android:textSize="@dimen/size1"
+                android:background="#4779e4" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:text="New Button"
-                android:id="@+id/button8" />
+                android:text="DO"
+                android:id="@+id/button8"
+                android:textSize="@dimen/size1"
+                android:background="#f31676c9" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
