@@ -1,6 +1,9 @@
 package ice_pbru.kongsud.kannika.piano;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
+import android.sax.StartElementListener;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -135,6 +138,15 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        DOButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.youtube.com/watch?v=ViyhNf07iko"));
+                startActivity(intent);
+            }
+        });
+
     }//Button Controller
 
     private void bindWidget() {
