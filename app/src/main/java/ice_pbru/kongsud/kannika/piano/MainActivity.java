@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
     }//bind widget
 
 
+
+
 }//Main Class
 
 //1.หาขอบเขต
